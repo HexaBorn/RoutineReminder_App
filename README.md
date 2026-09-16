@@ -29,7 +29,7 @@ Welcome to the official distribution repository for **RoutineReminder**. Here yo
 1. Download the `.deb` package file from the **[Releases](../../releases)** page.
 2. Open your terminal in the downloaded directory and run:
    ```bash
-   sudo dpkg -i routinereminder.deb
+   sudo dpkg -i *.deb
 
 If there are any missing dependencies, fix them with:
 sudo apt-get install -f
